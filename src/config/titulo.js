@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Planificación de actividades para el mantenimiento de la infraestructura tecnológica'
