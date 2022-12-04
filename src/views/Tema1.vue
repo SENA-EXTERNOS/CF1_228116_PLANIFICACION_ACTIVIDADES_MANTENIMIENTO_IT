@@ -98,7 +98,7 @@
         
         .row
           .col-lg-8
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_1 Caracteristicas red.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -139,38 +139,38 @@
                   //th Encabezado 5
               tbody
                 tr
-                  td 7
-                  td Aplicación
+                  td.text-center 7
+                  td.col2-tabla1-tema1 Aplicación
                   td Servicios y aplicaciones que conocemos para realizar la transferencia de datos entre equipos, que podemos utilizar fácilmente desde cualquier ordenador. 
 
                 tr
-                  td 6
-                  td Presentación
+                  td.text-center 6
+                  td.col2-tabla1-tema1 Presentación
                   td Establece un sistema de comunicación que garantice que ambos “leen” el mismo lenguaje, es decir, el sistema que recibe comprende con facilidad la información que le fue enviada a través de la red.
 
                 tr
-                  td 5
-                  td Sesión
+                  td.text-center 5
+                  td.col2-tabla1-tema1 Sesión
                   td Para garantizar que la comunicación en la red se realizará únicamente entre los dos dispositivos señalados y que no habrá posibles pérdidas de datos, se debe entablar una sesión que administre y termine la conexión. Esta capa garantiza la administración entre los sistemas que cooperan. 
 
                 tr
-                  td 4
-                  td Transporte
+                  td.text-center 4
+                  td.col2-tabla1-tema1 Transporte
                   td Permite crear un sistema de envío de datos por paquetes que garantiza que la información enviada será la misma que se recibe en el otro dispositivo en la red. 
 
                 tr
-                  td 3
-                  td Red
+                  td.text-center 3
+                  td.col2-tabla1-tema1 Red
                   td Los vínculos permiten crear esos enlaces entre los dispositivos físicos en la red, la red permite que se puedan identificar cada uno de ellos y transferir la información ya sea en la red LAN o en redes externas. 
 
                 tr
-                  td 2
-                  td Vínculo de datos
+                  td.text-center 2
+                  td.col2-tabla1-tema1 Vínculo de datos
                   td Una vez se reconoce el componente físico en la red, se deben establecer los sistemas de comunicación entre los que se desea crear una “conexión”, esta capa permite administrar la transferencia de datos a través de la red. 
 
                 tr
-                  td 1
-                  td Física
+                  td.text-center 1
+                  td.col2-tabla1-tema1 Física
                   td Corresponde al hardware de red, sus características y operabilidad. Permite identificar el “dispositivo” y reconocerlo en la red. 
 
     br
