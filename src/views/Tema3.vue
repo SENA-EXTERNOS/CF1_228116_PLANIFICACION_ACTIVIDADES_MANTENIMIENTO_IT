@@ -8,7 +8,7 @@
       h1 Mantenimiento
     
     
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.fondo-tarj2-tema3.p-4
 
       .bloque-texto-g.fondo-der-tema1.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
@@ -30,6 +30,8 @@
         .col-lg-5
             figure
                 img(src='@/assets/curso/temas/img2-tema3.png', alt='Texto que describa la imagen').img2-tema3
+        
+        p.txt-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit illo. Optio accusamus incidunt ad aspernatur sed? Consectetur quam eveniet exercitationem saepe. Modi facere illo maiores quos suscipit, alias iste?
 
     br
     br

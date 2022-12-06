@@ -16,7 +16,7 @@
       
       br
       #infraestructura-tecnologica
-        .titulo-segundo.color-acento-contenido
+        .titulo-segundo.color-primario
           h2 1.1 Infraestructura tecnológica
 
       .row 
@@ -81,7 +81,7 @@
     .row.container.justify-content-around.align-items-center.fondo-red-de-datos-tema1.p-4
           
         #red-de-datos
-        .titulo-segundo.color-acento-contenido
+        .titulo-segundo.color-primario
           h2 1.2 Red de datos
         
         .row 
@@ -177,6 +177,34 @@
     br
     br
     
+    
+    .row.container.justify-content-around.align-items-center
+
+      .row 
+        .col-lg-5
+
+            figure
+                  img(data-aos="flip-up")(src="@/assets/curso/temas/img-finf-tabla-tema1.png", alt="alt").img-finf-tabla-tema1
+        
+            
+        .col-lg-7
+
+            p #[strong  Ejemplo:] en un edificio bancario existe un cuarto exclusivo para ubicar el centro de datos, allí se encuentran dispositivos como: servidores, racks con switch, routers, módems, pantallas, sensores, red eléctrica, cableada, y lo necesario para permitir su funcionamiento. Todos estos componentes integran la infraestructura tecnológica, pero no podemos dejar de lado el edificio como tal; construir un ambiente apropiado para albergar tecnología requiere de conocimientos de normatividad dado que es indispensable velar porque variables como la temperatura, humedad e incluso nivel de acceso, se garanticen en una disponibilidad del 100% 24/7 (24 horas al día por 7 días a la semana). Factores como la altura, volumen, capacidad de carga, hasta el piso, deben ser revisados con detalle y por ello es importante estudiar estos temas a profundidad. 
+            p Si desea conocer sobre las características de la infraestructura de red, criterios de dimensión de un data center, criterios de gestión de servidores y modelos de gestión TI, por favor consulte el siguiente material:
+
+            .col-lg-10
+            a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_1 Caracteristicas red.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                    p #[strong Anexo] Características de la infraestructura 
+
+
+    br
+    br
+    br
+
+
     .row.container.justify-content-around.align-items-center
 
         .row 
