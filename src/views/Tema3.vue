@@ -93,7 +93,7 @@
         .row.linea2-proto-mant-tema3
 
             h4 Servicios y características
-            p Existen criterios para la prestación de servicios y protocolos de servicios, estos corresponden a los requerimientos hechos sobre novedades presentadas en la prestación de servicios TI, es decir, al sistema presentar una falla, un usuario responsable se encarga de diligenciar una novedad a través de un sistema de gestión de tickets (o servicios); una vez generada la solicitud, el administrador del sistema de acuerdo al nivel de atención que se requiera asignará a un técnico disponible para su atención y solución.
+            p Existen criterios para la prestación de servicios y protocolos de servicios, estos corresponden a los requerimientos hechos sobre novedades presentadas en la prestación de servicios TI, es decir, al sistema presentar una falla, un usuario responsable se encarga de diligenciar una novedad a través de un sistema de gestión de <em>tickets</em> (o servicios); una vez generada la solicitud, el administrador del sistema de acuerdo al nivel de atención que se requiera asignará a un técnico disponible para su atención y solución.
 
 
     .row.container.justify-content-around.align-items-center
@@ -107,7 +107,7 @@
               .row.justify-content-center.align-items-center.my-lg-4
                 .col-md-6.mb-4.mb-md-0
                   
-                    p.texto-tarj-acorden Para distribuir los tickets de servicio de acuerdo a su importancia, se deben tener presente los siguientes aspectos:
+                    p.texto-tarj-acorden Para distribuir los <em>tickets</em> de servicio de acuerdo a su importancia, se deben tener presente los siguientes aspectos:
                     ul.lista-ul--color.texto-tarj-acorden
                       li 
                         i.fas.fa-check
@@ -158,7 +158,7 @@
 
               
                 .col-md-6.mb-4.mb-md-0
-                  p.texto-tarj-acorden Al llegar el ticket a la mesa de ayuda, el analista deberá clasificarlo según su nivel de criticidad, si se tiene un equipo de atención al usuario por fuera del sistema será mucho más urgente atenderlo que un equipo terminal al cual se le debe programar mantenimiento preventivo anual; como se puede observar, la asignación de los servicios siempre estará predispuesta al nivel que se le asigne a cada uno. En la mesa de servicio también se debe contar con personal técnico cualificado para resolver las novedades presentes en el sistema, se deben contar con roles dentro del área así:
+                  p.texto-tarj-acorden Al llegar el <em>ticket</em> a la mesa de ayuda, el analista deberá clasificarlo según su nivel de criticidad, si se tiene un equipo de atención al usuario por fuera del sistema será mucho más urgente atenderlo que un equipo terminal al cual se le debe programar mantenimiento preventivo anual; como se puede observar, la asignación de los servicios siempre estará predispuesta al nivel que se le asigne a cada uno. En la mesa de servicio también se debe contar con personal técnico cualificado para resolver las novedades presentes en el sistema, se deben contar con roles dentro del área así:
                   ul.lista-ul--color.texto-tarj-acorden
                       li 
                         i.fas.fa-check

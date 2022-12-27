@@ -49,31 +49,64 @@
             tbody
               tr
                 td Servidores
-                td Routers
+                td <em>Routers</em>
                 td Cableado
 
               tr
                 td Cámaras de seguridad
-                td Modems
+                td <em>Modems</em>
                 td Sistema eléctrico
 
               tr
                 td Terminales IP
-                td Switch
+                td <em>Switch</em>
 
               tr
                 td Sensores
-                td Access Point 
+                td <em>Access Point</em>
 
 
               tr
                 td UPS
-                td Firewall
+                td <em>Firewall</em>
 
 
               tr
                 td Planta eléctrica
 
+    br
+    br
+    br
+
+        
+    .row.container.justify-content-around.align-items-center
+
+      .row 
+        .col-lg-5
+
+            figure
+                  img(data-aos="flip-up")(src="@/assets/curso/temas/img-finf-tabla-tema1.png", alt="alt").img-finf-tabla-tema1
+        
+            
+        .col-lg-7
+
+            p #[strong  Ejemplo:] en un edificio bancario existe un cuarto exclusivo para ubicar el centro de datos, allí se encuentran dispositivos como: servidores, racks con switch, routers, módems, pantallas, sensores, red eléctrica, cableada, y lo necesario para permitir su funcionamiento. Todos estos componentes integran la infraestructura tecnológica, pero no podemos dejar de lado el edificio como tal; construir un ambiente apropiado para albergar tecnología requiere de conocimientos de normatividad dado que es indispensable velar porque variables como la temperatura, humedad e incluso nivel de acceso, se garanticen en una disponibilidad del 100% 24/7 (24 horas al día por 7 días a la semana). Factores como la altura, volumen, capacidad de carga, hasta el piso, deben ser revisados con detalle y por ello es importante estudiar estos temas a profundidad. 
+            p Si desea conocer sobre las características de la infraestructura de red, criterios de dimensión de un data center, criterios de gestión de servidores y modelos de gestión TI, por favor consulte el siguiente material:
+
+            .col-lg-10
+            a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_1 Caracteristicas red.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                    p #[strong Anexo] Características de la infraestructura 
+
+
+
+
+      
+    
+    
+    
     br
     br
     br
@@ -112,14 +145,14 @@
         
         #modelos-de-referencia
         .titulo-segundo.color-primario
-          h2 1.3. Modelos de referencia
+          h2 1.3 Modelos de referencia
         
         br
 
         .row 
           .col-lg-10.bloque-cajon-color-mod-refer
             .cajon.color-primario.p-4
-              p Los protocolos de red generalmente están estructurados en capas, La Organización Internacional para la Estandarización (ISO) ha diseñado el modelo de referencia de Interconexión de Sistemas Abiertos (OSI) que implementa 7 capas según la actividad de la red y cada uno de ellos tiene asociado uno o más protocolos. “Las capas representan las operaciones de transferencia de datos comunes a todos los tipos de transferencias de datos entre las redes de cooperación”.
+              p Los protocolos de red generalmente están estructurados en capas, La Organización Internacional para la Estandarización (ISO) ha diseñado el modelo de referencia de Interconexión de Sistemas Abiertos (OSI) que implementa 7 capas según la actividad de la red y cada uno de ellos tiene asociado uno o más protocolos. <em>“Las capas representan las operaciones de transferencia de datos comunes a todos los tipos de transferencias de datos entre las redes de cooperación”.</em>
 
         .row 
 
@@ -171,54 +204,31 @@
                 tr
                   td.text-center 1
                   td.col2-tabla1-tema1 Física
-                  td Corresponde al hardware de red, sus características y operabilidad. Permite identificar el “dispositivo” y reconocerlo en la red. 
+                  td Corresponde al <em>hardware</em> de red, sus características y operabilidad. Permite identificar el “dispositivo” y reconocerlo en la red. 
 
     br
     br
     br
-    
-    
+
     .row.container.justify-content-around.align-items-center
 
-      .row 
-        .col-lg-5
+      .row.fondo-tarj-anexo-tema2.tarjeta.p-4
+        .col-lg-2
+          .icon-pdf-tarj-anexo-tema2
+            .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
 
-            figure
-                  img(data-aos="flip-up")(src="@/assets/curso/temas/img-finf-tabla-tema1.png", alt="alt").img-finf-tabla-tema1
-        
+        .col-lg-8
+
+            h4.txt-tarj-anexo-tema2 Anexo
+            p.txt-tarj-anexo-tema2 Para conocer más sobre el modelo OSI, el sistema de direccionamiento IP, protocolos de enrutamiento y las características de los sistemas de cableado estructurado, sistemas de almacenamiento y sistemas en la nube, consulte el siguiente material: 
             
-        .col-lg-7
-
-            p #[strong  Ejemplo:] en un edificio bancario existe un cuarto exclusivo para ubicar el centro de datos, allí se encuentran dispositivos como: servidores, racks con switch, routers, módems, pantallas, sensores, red eléctrica, cableada, y lo necesario para permitir su funcionamiento. Todos estos componentes integran la infraestructura tecnológica, pero no podemos dejar de lado el edificio como tal; construir un ambiente apropiado para albergar tecnología requiere de conocimientos de normatividad dado que es indispensable velar porque variables como la temperatura, humedad e incluso nivel de acceso, se garanticen en una disponibilidad del 100% 24/7 (24 horas al día por 7 días a la semana). Factores como la altura, volumen, capacidad de carga, hasta el piso, deben ser revisados con detalle y por ello es importante estudiar estos temas a profundidad. 
-            p Si desea conocer sobre las características de la infraestructura de red, criterios de dimensión de un data center, criterios de gestión de servidores y modelos de gestión TI, por favor consulte el siguiente material:
-
-            .col-lg-10
-            a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_1 Caracteristicas red.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                    p #[strong Anexo] Características de la infraestructura 
-
-
-    br
-    br
-    br
-
-
-    .row.container.justify-content-around.align-items-center
-
-        .row 
-          .col-lg-10
-            a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_3 Modelo OSI.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                    h4 Anexo
-                    p Para conocer más sobre el modelo OSI, el sistema de direccionamiento IP, protocolos de enrutamiento y las características de los sistemas de cableado estructurado, sistemas de almacenamiento y sistemas en la nube, consulte el siguiente material: 
-
-
-
-
+        .col-lg-2
+          .icon-boton-tarj-anexo-tema2
+            a.boton.boton--b(:href="obtenerLink('/downloads/anexo_3 Modelo OSI.pdf')" target="_blank")
+              .anexo__texto
+              span Descargar
+              i.fas.fa-file-download
 
 
 

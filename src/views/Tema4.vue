@@ -140,7 +140,7 @@
                 li 
                   .lista-ol--cuadro__vineta
                     span 1
-                  | Mejora de la red; al mejorar el ancho de banda de la red se mejora la calidad y como resultado una transmisión de paquetes mucho más “limpia”.
+                  | Retardo de códec: conversión entre A/D y compresión para reducir el ancho de banda.
 
                 li 
                   .lista-ol--cuadro__vineta
@@ -167,8 +167,10 @@
     br
 
     .row.container.justify-content-around.align-items-center
-
-        .row
+        
+        p En redes que requieran mayor tráfico de paquetes se deberán especificar los siguientes aspectos:
+        
+        .row.bloque-inf-pto-cal-tema4
             .col-lg-12
               ImagenInfografica.color-primario
                   template(v-slot:imagen)
@@ -198,6 +200,9 @@
     br
     br
     br
+    br
+    separador
+    
 
     .row.container.justify-content-around.align-items-center
 
