@@ -253,8 +253,7 @@
         .row.fondo-tarj-anexo-tema2.tarjeta.p-4
           .col-lg-2
             .icon-pdf-tarj-anexo-tema2
-              .anexo__icono
-                  img(src="@/assets/template/icono-pdf.svg")
+                img(src="@/assets/template/icono-pdf.svg")
 
           .col-lg-8
 
@@ -309,15 +308,16 @@
         .row.fondo-tarj-anexo-tema2.tarjeta.p-4
           .col-lg-2
             .icon-pdf-tarj-anexo-tema2
-              .anexo__icono
-                  img(src="@/assets/template/icono-pdf.svg")
+              
+                img(src="@/assets/template/icono-pdf.svg")
 
           .col-lg-8
-
+              br
               h4.txt-tarj-anexo-tema2 Criterios de manejo de incidentes
               p.txt-tarj-anexo-tema2 Para identificar los criterios de manejo de incidentes en el centro de datos según la normatividad vigente y los estándares, consulte el siguiente material:
               
           .col-lg-2
+            
             .icon-boton-tarj-anexo-tema2
               a.boton.boton--b(:href="obtenerLink('/downloads/anexo_6 Manejo incidentes.pdf')" target="_blank")
                 .anexo__texto

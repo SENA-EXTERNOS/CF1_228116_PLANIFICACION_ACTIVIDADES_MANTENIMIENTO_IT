@@ -246,8 +246,7 @@
                 .row.fondo-tarj-anexo-tema4.tarjeta.p-4
                   .col-lg-2
                     .icon-pdf-tarj-anexo-tema4
-                      .anexo__icono
-                          img(src="@/assets/template/icono-pdf.svg")
+                        img(src="@/assets/template/icono-pdf.svg")
 
                   .col-lg-8
 
